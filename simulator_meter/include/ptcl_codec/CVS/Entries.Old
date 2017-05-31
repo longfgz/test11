@@ -1,0 +1,24 @@
+/asn_codec.h/1.15.8.1/Thu Dec 29 12:48:21 2016//Trel_udis_release4_Brazil_002
+/ptcl_codec_global.h/1.1/Wed Aug 27 07:11:16 2014//Trel_udis_release4_Brazil_002
+/ptcl_cosem_dlms.h/1.2/Mon Dec 15 08:57:00 2014//Trel_udis_release4_Brazil_002
+/ptcl_module.h/1.2/Wed Jan 28 05:34:19 2015//Trel_udis_release4_Brazil_002
+/ptcl_module_ansi.h/1.4/Wed Jun 29 02:54:43 2016//Trel_udis_release4_Brazil_002
+/ptcl_module_dlms.h/1.1/Wed Aug 27 07:11:16 2014//Trel_udis_release4_Brazil_002
+/ptcl_module_dlms47.h/1.12.12.1/Thu Dec 29 12:48:21 2016//Trel_udis_release4_Brazil_002
+/ptcl_module_dsmr.h/1.1/Wed Aug 27 07:11:16 2014//Trel_udis_release4_Brazil_002
+/ptcl_module_hdlc.h/1.2/Tue Nov 18 05:36:59 2014//Trel_udis_release4_Brazil_002
+/ptcl_module_idis.h/1.17/Thu Dec  1 07:11:06 2016//Trel_udis_release4_Brazil_002
+/ptcl_module_in.h/1.12/Fri Oct 14 02:33:30 2016//Trel_udis_release4_Brazil_002
+/ptcl_module_mass.h/1.1.2.1/Thu Dec 29 12:48:21 2016//Trel_udis_release4_Brazil_002
+/ptcl_module_sg.h/1.4/Thu Nov 19 06:11:22 2015//Trel_udis_release4_Brazil_002
+/ptcl_packet.h/1.2/Tue Sep 27 07:59:39 2016//Trel_udis_release4_Brazil_002
+/ptcl_packet_ansi.h/1.5/Wed Jun 29 02:54:43 2016//Trel_udis_release4_Brazil_002
+/ptcl_packet_dlms.h/1.1/Wed Aug 27 07:11:16 2014//Trel_udis_release4_Brazil_002
+/ptcl_packet_dlms47.h/1.5/Fri Dec  2 02:40:18 2016//Trel_udis_release4_Brazil_002
+/ptcl_packet_gw_dlms47.h/1.1/Tue Sep 27 07:59:39 2016//Trel_udis_release4_Brazil_002
+/ptcl_packet_hdlc.h/1.1/Wed Aug 27 07:11:16 2014//Trel_udis_release4_Brazil_002
+/ptcl_packet_in.h/1.1/Wed Aug 27 07:11:16 2014//Trel_udis_release4_Brazil_002
+/ptcl_packet_mass.h/1.1.2.1/Thu Dec 29 12:48:21 2016//Trel_udis_release4_Brazil_002
+/ptcl_packet_mbus.h/1.2/Sun Dec 13 04:52:27 2015//Trel_udis_release4_Brazil_002
+/ptcl_packet_sg.h/1.3/Wed Nov 12 02:15:37 2014//Trel_udis_release4_Brazil_002
+D

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="logger" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug x64">
+				<Option output="logger" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DOTL_ORA10G" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add directory="D:/boost/include" />
+					<Add directory="D:/app/oracle/product/11.2.0/client_1/oci/include" />
+					<Add directory="D:/sqlite3_debug_64/include" />
+					<Add directory="$(IncludePath)" />
+					<Add directory="../../include" />
+				</Compiler>
+				<Linker>
+					<Add directory="D:/boost/lib" />
+					<Add directory="D:/app/oracle/product/11.2.0/client_1/oci/lib/msvc" />
+					<Add directory="D:/sqlite3_debug_64/lib" />
+					<Add directory="$(LibraryPath)" />
+					<Add directory="../../debug/" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output="../../release_bin/linux/64bit/logger" imp_lib="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).a" def_file="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).def" prefix_auto="1" extension_auto="1" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fPIC" />
+					<Add directory="../../include" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../release_bin/linux/64bit" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="logger" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add directory="../../include" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../release/" />
+				</Linker>
+			</Target>
+			<Target title="Debug Win32">
+				<Option output="logger" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add directory="D:/boost/include" />
+					<Add directory="D:/app/oracle/product/11.2.0/client_1/oci/include" />
+					<Add directory="D:/sqlite3_debug_64/include" />
+					<Add directory="$(IncludePath)" />
+					<Add directory="../../include" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../debug/" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../../include/logger/logger.h" />
+		<Unit filename="../../include/logger/logger_global.h" />
+		<Unit filename="../../include/util/public.h" />
+		<Unit filename="../util/public.cpp" />
+		<Unit filename="language_pack.cpp" />
+		<Unit filename="log_message.cpp" />
+		<Unit filename="log_message.h" />
+		<Unit filename="logger.cpp" />
+		<Unit filename="logger_writer.cpp" />
+		<Unit filename="logger_writer.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

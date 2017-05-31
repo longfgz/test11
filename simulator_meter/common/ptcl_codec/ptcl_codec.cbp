@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ptcl_codec" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug x64">
+				<Option output="ptcl_codec" prefix_auto="1" extension_auto="1" />
+				<Option external_deps=";" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DOTL_ORA10G" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add directory="D:/boost/include" />
+					<Add directory="D:/app/oracle/product/11.2.0/client_1/oci/include" />
+					<Add directory="D:/sqlite3_debug_64/include" />
+					<Add directory="$(IncludePath)" />
+					<Add directory="../../include" />
+				</Compiler>
+				<Linker>
+					<Add directory="D:/boost/lib" />
+					<Add directory="D:/app/oracle/product/11.2.0/client_1/oci/lib/msvc" />
+					<Add directory="D:/sqlite3_debug_64/lib" />
+					<Add directory="$(LibraryPath)" />
+					<Add directory="../../debug/" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output="../../release_bin/linux/64bit/ptcl_codec" imp_lib="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).a" def_file="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).def" prefix_auto="1" extension_auto="1" />
+				<Option external_deps=";" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fPIC" />
+					<Add directory="../../include" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../release_bin/linux/64bit" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="ptcl_codec" prefix_auto="1" extension_auto="1" />
+				<Option external_deps=";" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add directory="../../include" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../release/" />
+				</Linker>
+			</Target>
+			<Target title="Debug Win32">
+				<Option output="ptcl_codec" prefix_auto="1" extension_auto="1" />
+				<Option external_deps=";" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add directory="D:/boost/include" />
+					<Add directory="D:/app/oracle/product/11.2.0/client_1/oci/include" />
+					<Add directory="D:/sqlite3_debug_64/include" />
+					<Add directory="$(IncludePath)" />
+					<Add directory="../../include" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../debug/" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../../include/ptcl_codec/asn_codec.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_codec_global.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_cosem_dlms.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_102.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_dlms.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_dlt.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_dlt719.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_eq.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_ffc102.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_gd.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_gddy.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_gx102.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_hl102.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_in.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_jc102.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_sg.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_module_sg04.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_packet.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_packet_102.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_packet_dlt.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_packet_dlt719.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_packet_eq.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_packet_ffc102.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_packet_gd.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_packet_gx102.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_packet_hdlc.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_packet_hl102.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_packet_in.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_packet_jc102.h" />
+		<Unit filename="../../include/ptcl_codec/ptcl_packet_sg.h" />
+		<Unit filename="asn_codec.cpp" />
+		<Unit filename="asn_parser.cpp" />
+		<Unit filename="asn_parser.h" />
+		<Unit filename="ptcl_cosem_dlms.cpp" />
+		<Unit filename="ptcl_module.cpp" />
+		<Unit filename="ptcl_module_102.cpp" />
+		<Unit filename="ptcl_module_dlms.cpp" />
+		<Unit filename="ptcl_module_dlt.cpp" />
+		<Unit filename="ptcl_module_dlt719.cpp" />
+		<Unit filename="ptcl_module_eq.cpp" />
+		<Unit filename="ptcl_module_ffc102.cpp" />
+		<Unit filename="ptcl_module_gd.cpp" />
+		<Unit filename="ptcl_module_gddy.cpp" />
+		<Unit filename="ptcl_module_gx102.cpp" />
+		<Unit filename="ptcl_module_hl102.cpp" />
+		<Unit filename="ptcl_module_in.cpp" />
+		<Unit filename="ptcl_module_jc102.cpp" />
+		<Unit filename="ptcl_module_sg.cpp" />
+		<Unit filename="ptcl_module_sg04.cpp" />
+		<Unit filename="ptcl_packet.cpp" />
+		<Unit filename="ptcl_packet_102.cpp" />
+		<Unit filename="ptcl_packet_dlt.cpp" />
+		<Unit filename="ptcl_packet_dlt719.cpp" />
+		<Unit filename="ptcl_packet_eq.cpp" />
+		<Unit filename="ptcl_packet_ffc102.cpp" />
+		<Unit filename="ptcl_packet_gd.cpp" />
+		<Unit filename="ptcl_packet_gx102.cpp" />
+		<Unit filename="ptcl_packet_hdlc.cpp" />
+		<Unit filename="ptcl_packet_hl102.cpp" />
+		<Unit filename="ptcl_packet_in.cpp" />
+		<Unit filename="ptcl_packet_jc102.cpp" />
+		<Unit filename="ptcl_packet_sg.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

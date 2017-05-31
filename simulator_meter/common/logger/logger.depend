@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1382427080 source:/home/smsc/workspace/hes/hes/code/amr/common/util/public.cpp
+	<util/public.h>
+	<boost/thread.hpp>
+	<boost/filesystem.hpp>
+	<stdio.h>
+	<windows.h>
+	<sys/dir.h>
+	<conio.h>
+
+1382427036 /home/smsc/workspace/hes/hes/code/amr/include/util/public.h
+
+1351842340 source:/home/smsc/workspace/hes/hes/code/amr/common/logger/log_message.cpp
+	"log_message.h"
+
+1351842340 /home/smsc/workspace/hes/hes/code/amr/common/logger/log_message.h
+	<deque>
+	<boost/thread.hpp>
+	<logger/logger_global.h>
+
+1351842343 /home/smsc/workspace/hes/hes/code/amr/include/logger/logger_global.h
+	<iostream>
+
+1355216775 source:/home/smsc/workspace/hes/hes/code/amr/common/logger/logger.cpp
+	<logger/logger.h>
+	"log_message.h"
+	"logger_writer.h"
+	<stdarg.h>
+	<util/public.h>
+	<stdio.h>
+	<boost/filesystem.hpp>
+	<windows.h>
+
+1354070639 /home/smsc/workspace/hes/hes/code/amr/include/logger/logger.h
+	<logger/logger_global.h>
+	<boost/thread/mutex.hpp>
+	<boost/thread.hpp>
+
+1354070639 /home/smsc/workspace/hes/hes/code/amr/common/logger/logger_writer.h
+	"log_message.h"
+	<logger/logger_global.h>
+	<vector>
+	<deque>
+
+1372143857 source:/home/smsc/workspace/hes/hes/code/amr/common/logger/logger_writer.cpp
+	"logger_writer.h"
+	"log_message.h"
+	<util/public.h>
+	<boost/filesystem.hpp>
+	<boost/date_time/gregorian/gregorian.hpp>
+	<logger/logger.h>
+	<locale.h>
+	<stdio.h>
+	<iostream>
+	<fstream>
+

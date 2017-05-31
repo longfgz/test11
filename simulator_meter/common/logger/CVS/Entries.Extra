@@ -1,0 +1,14 @@
+/language_pack.cpp////*///
+/language_pack.h////*///
+/log_message.cpp////*///
+/log_message.h////*///
+/logger.cbp////*///
+/logger.cpp////*///
+/logger.depend////*///
+/logger.layout////*///
+/logger.vcproj////*///
+/logger.vcxproj////*///
+/logger_writer.cpp////*///
+/logger_writer.h////*///
+/sqlite_writer.cpp////*///
+/sqlite_writer.h////*///

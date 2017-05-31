@@ -1,0 +1,110 @@
+request
+
+000100010001007dC003C10200070100630100FF0201010204020412000809060000010000FF0F02120000090C07D60B01FF173B3BFF8000FF090C07D60B01FF183B3BFF8000FF010000070100630200FF0201010204020412000809060000010000FF0F02120000090C07D60B01FF173B3BFF8000FF090C07D60B01FF183B3BFF8000FF0100
+
+<GetRequest>
+  <GetRequestWithList>
+    <InvokeIdAndPriority Value="C1" />
+    <AttributeDescriptorList Qty="02">
+      <_AttributeDescriptorWithSelection>
+        <AttributeDescriptor>
+          <ClassId Value="0007" />
+          <InstanceId Value="0100630100FF" />
+          <AttributeId Value="02" />
+        </AttributeDescriptor>
+        <AccessSelection>
+          <AccessSelector Value="01" />
+          <AccessParameters>
+            <Structure Qty="04">
+              <Structure Qty="04">
+                <LongUnsigned Value="0008" />
+                <OctetString Value="0000010000FF" />
+                <Integer Value="02" />
+                <LongUnsigned Value="0000" />
+              </Structure>
+              <OctetString Value="07D60B01FF173B3BFF8000FF" />
+              <OctetString Value="07D60B01FF183B3BFF8000FF" />
+              <Array Qty="00">
+              </Array>
+            </Structure>
+          </AccessParameters>
+        </AccessSelection>
+      </_AttributeDescriptorWithSelection>
+      <_AttributeDescriptorWithSelection>
+        <AttributeDescriptor>
+          <ClassId Value="0007" />
+          <InstanceId Value="0100630200FF" />
+          <AttributeId Value="02" />
+        </AttributeDescriptor>
+        <AccessSelection>
+          <AccessSelector Value="01" />
+          <AccessParameters>
+            <Structure Qty="04">
+              <Structure Qty="04">
+                <LongUnsigned Value="0008" />
+                <OctetString Value="0000010000FF" />
+                <Integer Value="02" />
+                <LongUnsigned Value="0000" />
+              </Structure>
+              <OctetString Value="07D60B01FF173B3BFF8000FF" />
+              <OctetString Value="07D60B01FF183B3BFF8000FF" />
+              <Array Qty="00">
+              </Array>
+            </Structure>
+          </AccessParameters>
+        </AccessSelection>
+      </_AttributeDescriptorWithSelection>
+    </AttributeDescriptorList>
+  </GetRequestWithList>
+</GetRequest>
+
+
+response
+
+00 01 00 01 00 01 00 96 C4 03 C1 02 00 01 04 02 04 09 0C 07 D6 0B 02 04 00 00 00 00 80 00 00 11 00 06 00 00 00 00 06 00 00 00 00 02 04 09 0C 07 D6 0B 02 04 00 0F 00 00 80 00 00 11 00 06 00 00 00 00 06 00 00 00 00 02 04 09 0C 07 D6 0B 02 04 00 1E 00 00 80 00 00 11 00 06 00 00 00 00 06 00 00 00 00 02 04 09 0C 07 D6 0B 02 04 00 2D 00 00 80 00 00 11 00 06 00 00 00 00 06 00 00 00 00 00 01 01 02 04 09 0C 07 D6 0B 02 04 00 00 00 00 80 00 00 11 00 06 00 00 00 00 06 00 00 00 00
+
+<GetResponse>
+  <GetResponseWithList>
+    <InvokeIdAndPriority Value="C1" />
+    <Result Qty="02">
+      <Data>
+        <Array Qty="04">
+          <Structure Qty="04">
+            <OctetString Value="07D60B020400000000800000" />
+            <Unsigned Value="00" />
+            <DoubleLongUnsigned Value="00000000" />
+            <DoubleLongUnsigned Value="00000000" />
+          </Structure>
+          <Structure Qty="04">
+            <OctetString Value="07D60B0204000F0000800000" />
+            <Unsigned Value="00" />
+            <DoubleLongUnsigned Value="00000000" />
+            <DoubleLongUnsigned Value="00000000" />
+          </Structure>
+          <Structure Qty="04">
+            <OctetString Value="07D60B0204001E0000800000" />
+            <Unsigned Value="00" />
+            <DoubleLongUnsigned Value="00000000" />
+            <DoubleLongUnsigned Value="00000000" />
+          </Structure>
+          <Structure Qty="04">
+            <OctetString Value="07D60B0204002D0000800000" />
+            <Unsigned Value="00" />
+            <DoubleLongUnsigned Value="00000000" />
+            <DoubleLongUnsigned Value="00000000" />
+          </Structure>
+        </Array>
+      </Data>
+      <Data>
+        <Array Qty="01">
+          <Structure Qty="04">
+            <OctetString Value="07D60B020400000000800000" />
+            <Unsigned Value="00" />
+            <DoubleLongUnsigned Value="00000000" />
+            <DoubleLongUnsigned Value="00000000" />
+          </Structure>
+        </Array>
+      </Data>
+    </Result>
+  </GetResponseWithList>
+</GetResponse>
